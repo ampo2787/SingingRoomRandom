@@ -10,10 +10,16 @@
 
 @interface ViewController ()
 
+    @property (weak, nonatomic) IBOutlet UILabel *Singlabel;
+
 @end
 
 @implementation ViewController
-
+    
+- (IBAction)lbRandom:(id)sender {
+    
+}
+    
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
